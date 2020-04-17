@@ -3,7 +3,6 @@ using System.Collections.Concurrent;
 using System.Reflection;
 using System.Threading.Tasks;
 using Unity.Interception.PolicyInjection.Pipeline;
-
 namespace Lithium
 {
     public class TaskWrapper
