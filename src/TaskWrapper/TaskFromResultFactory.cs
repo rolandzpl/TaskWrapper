@@ -3,9 +3,9 @@ using System.Threading.Tasks;
 
 namespace Lithium
 {
-    public class TaskFromResultFactory
+    public static class TaskFromResult
     {
-        public object Create(Type resultType, object result)
+        public static object Create(Type resultType, object result)
         {
             var mthd = typeof(Task).GetMethod("FromResult");
             var genericMthd = mthd.MakeGenericMethod(resultType);
