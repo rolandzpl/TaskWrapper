@@ -5,9 +5,4 @@
     <RootNamespace>Lithium</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="Unity" Version="5.11.5" />
-    <PackageReference Include="Unity.Interception" Version="5.11.1" />
-  </ItemGroup>
-
 </Project>
