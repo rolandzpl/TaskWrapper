@@ -3,6 +3,29 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>Lithium</RootNamespace>
+    <AssemblyName>TaskWrapper</AssemblyName>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <PackageId>Lithium.TaskWrapper</PackageId>
+    <Title>Task wrapper supporting intercepting async/await calls in dotnet</Title>
+    <Description>
+      Task wrapper supporting intercepting async/await calls in dotnet.
+      Enables aspect oriented programming in async/await programming model.
+    </Description>
+    <Authors>Roland Żerek</Authors>
+    <Company>lithium.com.pl</Company>
+    <Copyright>Copyright © 2020 by Roland Żerek (lithium.com.pl)</Copyright>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/rolandzpl/TaskWrapper.git</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/rolandzpl/TaskWrapper</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="GitVersionTask" Version="5.2.4">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
 
 </Project>
