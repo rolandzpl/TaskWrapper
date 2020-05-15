@@ -1,3 +1,15 @@
 {
-    "dotnet-test-explorer.testProjectPath": "**/*Test*.csproj"
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true,
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "dotnet-test-explorer.autoWatch": true,
+    "dotnet-test-explorer.runInParallel": true,
+    "dotnet-test-explorer.useTreeView": true,
+    "dotnet-test-explorer.testProjectPath": "**/*Tests.csproj"
 }
